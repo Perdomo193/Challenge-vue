@@ -1,20 +1,50 @@
-# challenge-vue
+# vue-challenge
+
+Use the following API [https://openlibrary.org/dev/docs/api/search] to create a simple web app that includes:
+
+## Pages
+
+- A `search page` that allows users to search for books by title, author, or subject.
+
+- A `list of books page` that displays a list of books after searching. (books should also a favourite button that sets them as favourite throughout a local vuex module of favuorites)
+
+- A `book page` that displays the details of a book after clicking on a book in the book list page. (books should also a favourite button that sets them as favourite throughout a local vuex module of favuorites)
+
+- A `favorite books page` that displays a list of favorite books.
+
+*You can use anyting you like for the API, but make sure to use the search API as well as axios.*
+
+You have a starter nuxt template repo in here, and you are able to make any changes that you want.
+But please consider the following:
+
+- Tailwind.css has been installed and should be used as a default means of styling.
+- The axios actions should be called from a vuex store and the data should be handled by a vuex module.
+- Try making the app responsive is plausible.
+- The app should be able to handle errors (even if its just `console.error`).
+- The styling of the page is not the most important part of the project, but how the diff frameworks are used in the app and how clean/managed your code is.
+- This is a code challenge not a design one, so feel free to add as many or as little detail as you like as long as the
+page flows work and the data is handled correctly.
+
+
+Fork this repo and work on you own repo as that would be the repo we will be reviewing.
+
+GOOD LUCK!
 
 ## Build Setup
 
 ```bash
 # install dependencies
-$ npm install
+$ yarn install
 
 # serve with hot reload at localhost:3000
-$ npm run dev
+$ yarn dev
 
 # build for production and launch server
-$ npm run build
-$ npm run start
+$ yarn build
+$ yarn start
 
 # generate static project
-$ npm run generate
+$ yarn generate
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
